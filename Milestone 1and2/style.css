@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.resume-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: smokewhite;
+}
+
+.left-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 10%;
+    
+
+
+}
+.left-section{
+    background-color: #2c2c2c;
+    width: 30%;
+    text-align: center;
+    border-right: 5px solid #828282;
+}
+
+.right-section{
+    width: 60%;
+    margin-left: 5%;
+}
+h3{
+    border-radius: 10px;
+    box-shadow:0 0 15px #828282 ;
+    padding: 2%;
+    font-size: 20px;
+    
+}
+button{
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2c2c2c;
+    color:white;
+}
